@@ -1,0 +1,35 @@
+---
+title: "Untitled"
+author: "AMD Team"
+date: "10/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r loadLibraries, message=FALSE, warning=FALSE, error=FALSE}
+library(xml2)
+library(data.table)
+setDTthreads(0L)
+```
+
+```{r dsse}
+DSSE <- read_xml("./DSSE/Tags.xml")
+ATTRS <- xml_attrs(xml_child(DSSE, 1))
+DSTags <- data.table(ID = as.integer(xml_attr(xml_children(DSSE), "Id")),
+                     Tag = xml_attr(xml_children(DSSE), "TagName"),
+                     Count = as.integer(xml_attr(xml_children(DSSE), "Count")))
+setkey(DSTags, Tag)
+```
+```{r sose}
+# CSV file is result of query: 
+# SELECT DISTINCT * FROM   `bigquery-public-data.stackoverflow.tags`;
+# In Google's BigQuery public data set
+
+SOTags <- fread("./DSSE/results-20191010-234132.csv")
+SOTags[, 4:5 := NULL]
+setnames(SOTags, names(SOTags), c("ID", "Tag", "Count"))
+setkey(SOTags, Tag)
+SharedT <- intersect(SOTags[, Tag], DSTags[, Tag])
+```
