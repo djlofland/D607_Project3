@@ -6,16 +6,19 @@ date: "10/20/2019"
 output:
   ioslides_presentation:
     widescreen: true
+    css: styles.css
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
 ```{r loadLibraries, message=FALSE, warning=FALSE, error=FALSE, echo=FALSE}
 library(ggplot2)
 library(wordcloud)
 library(RColorBrewer)
 library(data.table)
+
 setDTthreads(0L)
 ```
 
@@ -23,16 +26,24 @@ setDTthreads(0L)
 
 ## Scope
 
+<img style="float: right;" src="knowledge.png" width="40%">
+
 - Impossible to answer precisely
 
-- Skills fall into categories
+- Skills broadly fall into categories
 
-  - Mathematical/Statistical
-  - Computers/Coding
-  - Communication/Presentation
-
+  - Mathematical / Statistical
+  - Computers / Coding
+  - Communication / Presentation
+  - Experimental Design
+  - Data Engineering
+  
+- Data Scientists often need Domain Expertise to answer questions
+  
 # DataScience Exchange
+
 ## Data Collection
+
 ```{r dsse, echo=FALSE}
 # From https://data.stackexchange.com/
 # Select the site in question and then pass the following SQL
@@ -43,6 +54,8 @@ DS <- fread("./DSSE/DSSETags.csv", key = "TagName")
 - Scraped all tags from DataScience Exchange
   - https://data.stackexchange.com/ allows submitting SQL
   - There is an API for automated queries which returns JSONs
+
+```SELECT Id, TagName, Count from Tags ORDER BY Count DESC;```
 
 - There are `r dim(DS)[[1]]` unique tags which range in frequency from
 `r min(DS$Count)` to `r max(DS$Count)`. Of these, `r DS[Count > 5, .N]` appear
@@ -61,6 +74,7 @@ wordcloud(DS$TagName,DS$Count, scale = c(4, 0.6), min.freq = 100L,
           colors = brewer.pal(5, "Dark2"), random.color = TRUE,
           random.order = TRUE, rot.per = 0, fixed.asp = FALSE)
 ```
+
 
 # Other Skills
 ## Need to expand
