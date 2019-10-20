@@ -1,0 +1,357 @@
+phd, machine learning (ml), deep learning (dl), sql, python, stats models, artificial intelligence (ai)
+data scientist, python, pandas, r, sas, stata, sql, matlab, data analysis, programming, financial
+manager, management, systems, engineering, accounting, computer, database, oracle, sql, python, sas
+python, javascript, sql
+data scientist, data analyst, java, mining, extract, statistical programming language, datasets
+it, computer, engineering, sql, recruiter
+strong communication skills, strong orginazational and presentational skills, data science, problem solving, python, machine learning, sql
+nlp, network, analysis, sna
+artificial intelligence, machine learning, deep learning, computer vision
+predictive models, data models, algorithms, bi, r
+python, frameworks
+deep learning, machine learning, recommender system, speech recognition, artificial intelligence, computer vision, spark, databricks, hadoop - deep learning, machine learning, recommender system, speech recognition, artificial intelligence, computer vision, spark, databricks, hadoop
+it, analyst, biometrics, sas, python, sql
+nlp, python, matlab, software
+environmental, geology, analysis, desktop, developer, python, sql, oracle, pl/sql
+allstate is seeking to hire a senior data scientist to join our innovation team at our downtown chicago location.&#160;allstate&#8217;s innovation team is at the forefront of change and growth within the company, driving the creation of standalone businesses or reinvention of existing ones. innovation projects typically include cross-functional team members within business strategy, product, technology, design, and go to market functions, who use data-driven prototypes and testing to achieve desired business outcomes. the team is seeking to augment its analytics capabilities further by growing a small team of predictive analytics researchers and data engineers with a senior data scientist position. past projects in the team have included the development of a new&#160;consumer &#8220;digital footprint&#8221; technology, announced at ces 2019, and new approaches to risk prediction for traditional insurance products.
+python, r, sql, nosql, ms excel
+research, development, computer, python
+analysis, data analysis, data mining, development, management, mathematical, mathematical models, oracle, physics, programming, python, research, sales, sql, sql server, teradata
+analysis, c++, development, http, java, management, project, python, security, technical writing, testing
+data science, data mining, data visualization
+it, sql, computer, systems, engineering, process reengineering
+data scientist
+artificial intelligence, http, iterative, library, nosql, owl, physics, programming, python, research, security, sql
+analysis, sql, statistical analysis
+analysis, analytical, engineering, management, modeling, programming, project, python, quality, sql
+it, analyst, computer, engineering, data mining
+data scientist
+manager, director, modeling, python, analytical
+statistics, data science
+python
+python, machine learning, nlp, hadoop
+sql / relational databases
+data mining, sql, python
+microsoft power bi,  business intelligence,  communication skills,  modeling,  analytics,  data analysis,  data modeling,  machine learning,  quantitative analyst,  tableau,  presentations,  sql,  r,  python,  kpi,  visualization
+aerospace, analysis, business intelligence, data mining, http, management, mathematical, modeling, research, security, statistical analysis
+machine learning, etl, data science
+analysis, data analysis, library, management, mongodb, programming, python, statistical analysis
+database, development, iso, modeling, programming, python, research, sas, sql
+sas, research, python, ide, windows, excel, powerpoint, architect
+python, aml, spark or hadoop, machine learning
+sql
+sas, python, sql, excel, access, powerpoint, micro
+python, spark, hadoop, machine learning, ai
+analysis, data analysis, data mining, development, laboratory, mathematical, modeling, networks, physics, python, research, security, sql, testing, validation
+sr. data scientist
+python r, machine learning
+computer, nlp
+python, data science, deep learning, etl, machine learning, apache pig
+libraries
+data science, machine learning, python, algorithms
+python, adobe, consulting, modeling
+quantitative analysis, statistics, amazon web services, computer science, machine learning, python, scripting, sql, analysis
+data science , predictive modeling, predictive analytics
+nlp
+project, sas, modeler, python, java, sql, analysis, networks, business objects
+sql, alteryx, r or python, qlikview or tableau.
+sql
+artificial intelligence, machine learning
+nlp, artificial intelligence, engineers
+it, sql, python, linux
+apache, java, python, business intelligence, sql, database, engineering, sas, ux, data analysis
+research, test, python
+python, logistics, supply chain management, machine learning
+data scientist, big data/cloud
+vops technologies like github, jenkins, docker etc
+r, python, sql, glm/regression, random forest, boosting, trees, text mining, social network analysis, data frameworks
+spark, python, statistics, data scientist
+analysis, data analysis, library, management, programming, python, statistical analysis
+tableau, r, python, spark
+sql, python, machine learning, financial , sas
+financial domain, ai, rendering ml, data science , data engineering
+algorithms, analysis, architecture, data architecture, python
+surveillance, security, programming, python, sql, database
+python, machine learning, big data technologies including hadoop (hdfs, mapreduce, hive, spark
+data analytics ai, open source data analytics, statistical and/or predictive model
+r, python, datarobot, tableau, power bi
+pyspark, machine learning, spark
+engineering, computer, software, sql, python
+mapreduce, hadoop, hive, kafka, mysql, postgres, db2 or greenplum
+data modeling, analysis, predictive modeling, statistics, data science, scripting
+data science, analytics work
+artificial intelligence, environmental, materials, engineering, systems, analysis, chemical engineering, mechanical, python, perl, java, networks, civil
+data analysis, python, aml, sql, application
+aerospace, analysis, apache, architecture, data analysis, data mining, http, matlab, metrics, networks, protocols, sas, security
+data scientist, poc, modeling, analytics
+population health, data mining, predictive analytics, health care data, sql, python, statistical analysis, sas, data science - population health, data mining, predictive analytics, health care data, sql, python, statistical analysis, sas, data science
+python, pytorch, graph databases, ui, cloud, docker, clinical trials, angularjs, keras, machine learning, postgresql, mysql, microsoft windows azure, tensorflow, natural language processing, api, kubernetes
+predictive, analytics, python, devops
+nlp, python, matlab, software
+machine learning, data science, computer vision, nlp, aws, python, saas, regression models, leading teams - machine learning, data science, computer vision, nlp, aws, python, saas, regression models, leading teams
+machine learning, data scientist
+data science
+engineering, management, development, supply chain, it, architecture, python, sql, computer
+computer, engineering, physics, python, java, web
+r, python, sql, bash, c#
+data scientist
+data modeling, analytics, statistics, python, sql, mach
+data scientist python r spark scala matlab sql
+k-nn, naive bayes, svm, decision forests r, python,  predictive analytics, predictive modelling, regression modelling,  data science,  machine learning,  python,  r
+artificial intelligence, python, sql, automated, quality, sas
+python
+sql, postgresql, mongodb, python, c++, tensorflow, caffe, torch, theano, keras, data architecture, data curation, data cleansing, data modeling concepts, gpu computing, deep learning on aws, ci/cd/devops technologies
+senior data scientist
+algorithms, analysis, data analysis, data mining, development, http, modeling, networks, python, sap, security, simulation, sql
+python, predictive modelling, data science, machine learning, business intelligence, statistical models, big data, sas, healthcare payer data
+qlik sense, jira, oracle, sql
+other
+python, sas, vba, sql, analysis
+machine learning, artificial intelligence, algorithm
+computer, engineering, physics, python, java, web
+nlp, sql, python
+data science, data scientist, machine learning, tensorflow, scikit-learn, deep learning, convolutional neural networks, iot, bayesian networks, complex event processing, data mining
+dna, project, python
+python, machine learning, data scientist, sql, ecommerce, architecture, data science
+data science, predictive modeling, predictive analytics
+it, engineering, analyst, application, sql, oracle, architect, cissp
+understanding of and ability to use programming languages like python and sql (structured query language).strong knowledge of basic and advanced prediction models.data mining knowledge that spans a range of disciplines.mastery of statistics, machine learning, algorithms and advanced mathematics., working knowledge of code writing.previous experience working in data mining or natural language processing.possess advanced statistics/machine learning knowledge and implementation skills.
+agile, modeling, java, python
+intermediate/expert level sql (primarily hdfs, preferred) with the capability to switch from one syntax to another (teradata, oracle, hdfs, etc.).
+apache, java, modeling, python, sql
+data science, python, sql, prediction
+performance, management, sas, matlab, python
+systems, engineering, it, sql, edi, lifecycle, software, perl, python, windows
+python, aws
+it, process reengineering
+project, python
+engineering, nlp, artificial intelligence, python, java, software, engineers
+machine learning, neural networks, random forests, python, r, pyspark, scala, big data, hadoop, azure - machine learning, neural networks, random forests, python, r, pyspark, scala, big data, hadoop, azure
+machine learning, python/r, nlp, matlab, spark/scala and sql
+data modeling, analysis, predictive modeling, statistics, data science, scripting
+mid-level data scientist
+healthcare, hipaa, python, r, azure, machine learning, de-identification, data governance, statistical analysis, regulatory compliance - healthcare, hipaa, python, r, azure, machine learning, de-identification, data governance, statistical analysis, regulatory compliance
+kubernetes, postgresql, pytorch, natural language processing, github, ui, graph databases, agile, deep learning, tensorflow, amazon redshift, api, angularjs, database, machine learning, continuous integration, docker, artificial intelligence, microsoft windows azure, clinical trials, python, keras
+data scientist, pharma, pharmaceutical companies
+machine learning, big data, common components, yarn, hive, aiml, artificial intelligence, machine learning data modeling, data science, python, hadoop, hbase, kafka, communication skills, specifications, articulate, detailed oriented, unstructured data, statistical, predictive modeling, verbal communication skills, listening, communications, concisely, written communication skills, straightforward
+it, re-engineering
+python, data scientist
+modeling, r, python, algorithm design, machine learning, statistics, rdbms/sql experience, matlab, java, software development life cycle methodologies
+libraries
+artificial intelligence, sql, sas, python
+("data scientist" or "data-scientist" or "data science engineer" or "data-science engineer") and (nlp or "natural language processing" or "natural language") and ("python") and ("html") and ("java script" or "java-script" or "javascript")
+it, architect, systems, security, consulting, javascript, c, sql, html, foundation, recruiter
+agile, algorithms, analysis, apache, api, architecture, automated, business intelligence, c++, database, data mining, db2, development, git, hadoop, java, libraries, linux, mathematical, modeling, mongodb, nosql, object oriented programming, oop, oracle, programming, project, python, sas, scrum, sdlc, sql, sql server, statistical analysis, testing, validation, vm, web server, windows
+database, iso, modeling, programming, python, research, sas, security, sql
+data scientist, python, data science
+java, python, security, computer, engineering, unix, intern
+mathematical, python, engineering, sql, it
+computer, software, engineering, sql, python
+ml, sql programming, python
+algorithms, analysis, automated, business intelligence, data analysis, data mining, development, http, libraries, modeling, python, research, sql, statistical analysis, testing
+senior data scientist, nlp, machine learning, ai
+,
+analysis, apache, artificial intelligence, data analysis, data mining, http, matlab, metrics, protocols, python, sas
+analysis, consulting, data mining, mathematical, modeling, networks, physics, python, research, simulation, testing
+data scientist, python, machine learning, tensorflow
+system, project manager, software, engineering, systems, python, java, sql, development, excel, sas, analysis
+pyspark, python, sql, hadoop, big data
+python, big data, hadoop, azure, cloud, spark, sql, nlp, nvidia, cuda
+machine learning, algorithms, ai neural network, hadoop
+python
+algorithms, api, database, data mining, development, libraries, programming, python, sql, testing
+python, sql, javascript, ibm
+nlp, computer, engineering, python, java, xml, xslt, owl
+data science, statistical analysis, python, r, hadoop, hive, sas, spss
+python,  federal government,  decision-making,  algorithms,  analytics,  artificial intelligence,  impact analysis,  qa,  team leadership,  problem solving,  risk assessment,  flask,  agile,  software development,  statistical models,  data mining,  r,  system integration,  project implementation,  software,  devops,  data analysis,  risk analysis,  network analysis,  reporting,  advanced analytics,  web development,  government,  architecture,  research,  cloud,  machine learning,  tensorflow, flask,  it management,  data science,  modeling,  investigation,  security clearance,  threat analysis,  information retrieval,  predictive analytics,  open source, variable analysis ,  leadership,  financial management,  negotiations,  senior management,  decision support
+python, java, aws, machine learning, r, machine learning frameworks
+python, sql, data engineering, data quality control, data hygiene - python, sql, data engineering, data quality control, data hygiene
+$170 k + 20% bonus, python or r
+ai, ml
+artificial intelligence, environmental, materials, engineering, systems, analysis, chemical engineering, mechanical, python, perl, java, networks, civil
+python, mysql, java, web
+python/r programming, aws, spark, amazon s3, machine learning (tensorflow, scikit-learn, or spark ml), amazon sagemaker
+manager, management, systems, engineering, accounting, computer, database, oracle, sql, python, sas
+computer, java, linux, python
+risk management, security, engineering, python, javascript, management, sql
+engineers, interface, ibm, computer, physics
+sql, sas, and python, data scientist/statistician/machine learning engineer/data analytics
+data scientist
+python
+machine learning, data scientist, python, nosql, tableau, adobe analytics, google analytics
+java, scala, python, shell scripting, hadoop , big data, data mapping, data modelling, data
+python, data scientist, machine learning
+python
+data scientist
+data scientist
+sql, python, r, tableau
+python, nlp, spark, cloud, data science, data mining, statistical modeling, machine learning
+sas, ssrs, ssis, ssms, powerbi, tableau, python, sql, machine learning, predictive analysis
+machine learning, python
+analysis, analyst, analytical, business analyst, business requirements, developer, development, engineering, excel, it, management, microsoft excel, networks, powerpoint, project, project management, quality, software, system, systems
+tidyr, stringr, dplyr, shiny, r, sap analytic cloud
+data sceince, data models
+data science, r, python, machine learning, deep learning, nlp
+machine learning, python, hadoop, sas, r
+python
+regression analysis, data science, data mining, python, r, sql, statistical models
+artificial intelligence, research, engineering, python, sql
+computer, nlp
+security, development
+statistical solutions, predictive modeling, python, regression, k-means, machine learning, jupyter notebooks
+artificial intelligence, machine learning, computer vision, natural language processing, deep learning, tensorflow, big data, python, aws - artificial intelligence, machine learning, computer vision, natural language processing, deep learning, tensorflow, big data, python, aws
+data science algorithms, statistical software, computer science degree, aws, python, strong math & physics, nosql databases, scripting
+python, sql, excel, data, statistics. pluses: data science, time series, clustering algorithms
+other
+data scientist, python, r, machine learning, statistical modeling, predictive modeling, big data, sas
+sql, python
+artificial intelligence, research, engineering, python, sql
+senior data scientist
+algorithms, analysis, data mining, development, genetic, mathematical, metrics, mysql, mysql, programming, project, python, research
+sas, python
+data scientist, sql, python, r, tableau, etl
+data scientist
+nlp, python, sql, physics, computer
+machine learning, data science
+sas, python, sql, java, access, excel, powerpoint, project, ibm, civil
+sas, enterprise guide, enterprise miner
+data scientist, tableau, sql
+business intelligence, computer, management, systems, it, architecture
+it, sql, python, computer, engineering, excel
+data scientist, economic modeler, modeler
+senior data scientist
+r, sas, sql, hive, pig, data modeling
+python
+sas, python
+tensor flow, python, machine learning
+see job description
+advanced analytics based nlp solutions, machine learning (ml), deep learning (dl), python/ java/ scala, nlp packages, mongodb/ elastic search, tensorflow/ torch/ keras/ caffe/ mxnet/ theano, model optimization on gpus (preferred), apache spark/ kafka/ flume/ elasticsearch (preferred)
+machine learning, python, java, data mining, hadoop, mapreduce, spark, azure, natural language processing, deep learning, tensorflow
+data scientist
+aerospace, analysis, apache, architecture, data analysis, data mining, http, matlab, metrics, networks, protocols, sas, security
+analysis, ccna, data analysis, data mining, hadoop, http, nosql, protocols, python, security, statistical analysis
+analysis, data analysis, mathematical, matlab, networks, programming, python, sas, scientific, testing, validation
+algorithm, algorithms, analysis, automated, data mining, hadoop, html, modeling, project, python, simulation, statistical analysis, telecom, testing, video
+computer, python, sql, html, javascript, php
+computer vision data scientist
+analysis, data analysis, data mining, development, manager, management, mathematical, mathematical models, oracle, physics, programming, python, research, sales, sql, sql server, teradata
+data science, machine learning, image data, neural network, python, deep learning, nltk, hyperparameter tuning, gradient descent - data science, machine learning, image data, neural network, python, deep learning, nltk, hyperparameter tuning, gradient descent
+sql, api, python, analyst, web
+python, machine learning, r, sql, strategic planning - python, machine learning, r, sql, strategic planning
+machine learning language, jupyter, data modeling
+data scientist ii
+research, sql, python, sas, analytical, scientific, it
+event driven architecture, pivot cloud foundry, rest, kibana, kafka, julia, sas, python
+r, machine learning, python
+programming skills, statistics, machine learning, multivariable calculus, linear algebra, data wrangling, data visualization, communication, software engineering, data intuition
+python
+it, analyst, biometrics, sas, python, sql
+data scientist, python and/or r and/or sql
+algorithms, analysis, data analysis, data mining, data warehouse, development, libraries, mathematical, metrics, modeling, python, sql, statistical analysis
+r, python, sql - r, python, sql
+networks, python, sql, physics, computer
+education data
+libraries, engineering, python, sql, nlp, computer
+algorithms, analysis, architecture, c++, data analysis, data architecture, data modeling, development, hadoop, java, management, modeling, mysql, mysql, networks, oracle, perl, programming, project, project management, python, research, sas, security, simulation, sql, sql server, testing
+python, etl, machine learning, aws
+powerbi, visual studio
+machine learning, ml, data, analysis, statistics, modeling, deep learning, algorithms, tensorflow, caffe, theano, torch, cntk, mxnet, cnns, rnns, lstms, aws, python, r, sql, no-sql, docker, kubernetes
+agile, analysis, database, data mining, datamining, libraries, management, modeling, programming, project, python, research, sql, testing, validation
+python, machine learning, sql
+sql, python, java, sas, hub
+sql, python, data mining, network
+systems, security, python, computer, java, perl
+data scientist/engineer, ai &amp; analytics delivery lead
+artificial intelligence, machine learning, data analysis
+python, r, data science
+python, sql
+scientific, java, linux, python, windows, xml, xslt, jdbc, soap, sql, programming, it
+data science, emr, no-sql, no sql, sql, data, healthcare, statistics, ml, ai, inferential statistics, inferential
+data analysis,  machine learning,  data science,  statistics
+bi tools, consulting, css, data modeling, developer, excel, html, java, microstrategy, modeling, programming, python, sas, sql, vb, vba, visual basic
+experience with video and image processing in python
+data scientist
+data science, data engineering, r, python, machine learning, sas, nosql
+it, sql, computer, systems, engineering, process reengineering
+python, java script, c#, sql, nosql
+data scientist
+it, analyst, computer, engineering, data mining
+machine learning, hadoop, data mining, r, python - machine learning, hadoop, data mining, r, python
+machine learning, statistical and data mining techniques, python, hadoop, spark
+nlp, network, analysis, sna
+sql, python, tableau, predictive, "artificial intelligence", r
+data science, machine learning, python
+analysis, data analysis, development, diagnostic, http, modeling, programming, security
+etl, analysis, data structure, data mining, statistics analysis, python, java, data visualization, predictive modelling, machine learning, nosql, sql, statistics, research and development, applied mathematics, data analytics, data processing, database
+tableaupythondashboard creationgit
+aws, c2s, docker, kubernetes, salt, chef, python, data scientist, java, node, git, jira, confluence, elasticsearch, cogito, microservices, secret, ts, ts/sci, top secret
+test, python, web
+clinical, data science, statistical
+engineer, computer, engineering, python, sql
+python, sql
+python, sql, r, tensorflow, scikitlearn
+sas, sql, python, java, b2b, linux, pc, consultant
+data scientist, big data, data science, operations research
+data scientist, python, mllib, spark, nlp, hadoop
+surveillance, security, programming, python, sql, database
+scripts, deep learning, azure, machine learning
+java, linux, python, windows, xml, xslt, jdbc, soap, systems, engineer, engineering, research, computer, web, lifecycle, it
+foundation, analytical, python, sql, it, web
+data visualization, data mining, sql, adobe analytics
+"machine learning" and "sql" and "data visualization" and "ai"
+machine learning, artificial intelligence, deep learning, healthcare/managed care, data management, data mining, data manipulation, python, r - machine learning, artificial intelligence, deep learning, healthcare/managed care, data management, data mining, data manipulation, python, r
+masters degree (completion required with 3+ years of professional experience) in engineering, computer science, mathematics, computational statistics, operations research, machine learning or related technical fields.
+python, java, business intelligence
+data scientist
+data scientist, data engineer, machine learning, python
+java, concurrency, data structure, algorithms
+data science, data models, algorithms, decision support, machine learning, hadoop, spark, hive, sql, gradient boosting, random forests, neural networks, svms
+sas, python, retail, e-commerce, google analytics, data scientist, clickstream, spss
+aws, ai/client models, machine learning, artificial intelligence
+data, data science, ruby,  sql,  matlab,  python
+strong programming skills in python/r/matlab/spark/scala and sql is a must have
+systems, ux, python, java, system, engineering, api
+machine learning, time-series analysis modeling, statistical data analysis, natural language processing (nlp) and deep neural networks, big data (hadoop, spark), scala, python, tensorflow, map/reduce, python, java, c#/.net, c++, c.
+machine learning, ai, nlp
+pyhton, sql, linux shell, hdfs, nlp, ner, algorithms, data science, analytics
+algorithm, algorithms, analysis, business requirements, genetic, hadoop, python, research, testing, validation
+analysis, analytical skills, cisco, development, excel, http, management, metrics, microsoft excel, packaging, project, python, sas, sql
+artificial intelligence, business intelligence, machine learning, python, data architect, data analyst, data engineer, big data
+algorithms, analysis, analytical, automated, computer, data analysis, data mining, development, engineering, java, lifecycle, management, modeler, modeling, networks, performance, programming, project, project management, protocols, python, research, sas, software, sql
+machine learning, data science, data scientist, cuda, cloud, gcp, azure, vmware, python, r, object-oriented programming, object-oriented design, coding, offshore teams, global teams, project management, c, c++, unix, linux
+sas, python
+supply chain management, programming, communications management, data analysis, manufacturing, manufacturing operations
+python programming, sql, etl
+html, css, javascript, web development, python, azure, aws, spark, r, hadoop
+r, python, sql - r, python, sql
+r, python, artificial intelligence
+python, sql, linux, nlp, deep neural networks, cnn, rnn, machine learning
+data scientist
+data science, ai, ml, machine learning, python, r, nlp, time series
+machine learning, python, scale, algorithms
+algorithms, analysis, analytical skills, data mining, data modeling, development, java, linux, modeling, perl, physics, programming, sql, testing, unix, xml
+algorithms, data modeling, modeling, statistics, data science
+data science, python, r, machine learning, algorithms, data analysis
+python, adobe, consulting, modeling
+erwin, sql, sas, r, tableau, business objects, qlikview
+data scientist python r scala matlab sql
+spatial & temporal statistics, analytical skills, data sets, cloud platforms, algorithims, sql, machine learning, python
+artificial intelligence, environmental, materials, engineering, systems, analysis, chemical engineering, mechanical, python, perl, java, networks, civil
+python, engineering
+3+ years of data science, advanced applied statistics, analyzing large scale data and distributed algorithm, k-nn, naive bayes, svm, decision forests, r/python
+aerospace, analysis, apache, architecture, data analysis, data mining, http, matlab, metrics, networks, protocols, sas, security
+data science, data engineering, data pipeline, predictive modeling
+agile, algorithms, architecture, c++, development, hardware, hmi, linux, management, programming, project, project management, python, robotic, robotics, version control
+python, analysis, sql, it, project, dba, software, engineers, qa, systems, network, security, erp, crm, oracle, peoplesoft, jd edwards, lawson, sap, business intelligence, project manager, director, architect, ux, web
+research, physics, computer, call center, python
+python, r, nlp
+sas, sql, engineering, python, linux, pc, analyst
+nlp, python, matlab, software
+python, agile, machine learning, mathematics, tensorflow, matlab, data engineering, predictive modelling, statistical models, dimensional modeling
+sql, tableau, python, algorithms/machine learning
+artificial intelligence and machine learning
+management, network, ibm, sas
+data science, statistics, machine learning models, deep learning networks, python, spark, pyspark
+machine learning, cloud computing, big data, r, python, demand forecasting, data visualization, sql, nosql
+data science, python, .net, data warehouse, microsoft azure - data science, python, .net, data warehouse, microsoft azure
+modelling, sas, sql, python
