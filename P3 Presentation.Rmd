@@ -1,7 +1,7 @@
 ---
 title: "Most Valued Data Science Skills"
 subtitle: "DT 607---Fall 2019---Project 3"
-author: "Danny Lofland, Michael Yampol, Alain Kuiete Tchoupou, Avraham Adler"
+author: "Donny Lofland, Michael Yampol, Alain Kuiete Tchoupou, Avraham Adler"
 date: "10/20/2019"
 output:
   ioslides_presentation:
