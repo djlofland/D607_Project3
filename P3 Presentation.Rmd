@@ -19,7 +19,6 @@ library(ggplot2)
 library(wordcloud)
 library(RColorBrewer)
 library(data.table)
-
 setDTthreads(0L)
 ```
 
