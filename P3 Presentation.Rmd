@@ -65,7 +65,21 @@ more than 5 times, **`r DS[Count > 100, .N]`** more than 100 times, and
 
 ## Top 10 tags{.smaller}
 ```{r DST, echo=FALSE}
-knitr::kable(head(DS[order(-Count)], n = 10))
+# knitr::kable(head(DS[order(-Count)], n = 10))
+
+data <- head(DS[order(-Count)], n = 10)
+
+ggplot(data, aes(reorder(TagName, Count), Count, label=Count, fill = TagName)) +
+  geom_col() +
+  coord_flip() +
+  scale_color_brewer(type = "seq", palette = "Blues") +
+  geom_text(aes(label = Count, y = Count), size = 3, hjust=1.25) +
+  labs(x = NULL, y = "Count", title = "Data Science Skills",
+     subtitle = "Mined from DataScience Exchange Tags") +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5), 
+        plot.subtitle = element_text(hjust = 0.5))
+
 ```
 
 ## Wordcloud (Count > 100)
@@ -122,7 +136,20 @@ There are **`r nrow(DiceSkills)` unique tags** which range in frequency from
 
 ## Top 10 tags{.smaller}
 ```{r DiceT, echo=FALSE}
-knitr::kable(head(DiceSkills[order(-N)], n = 10))
+# knitr::kable(head(DiceSkills[order(-N)], n = 10))
+
+data <- head(DiceSkills[order(-N)], n = 10)
+
+ggplot(data, aes(reorder(skills, N), N, label=N, fill = skills)) +
+  geom_col() +
+  coord_flip() +
+  scale_color_brewer(type = "qual", palette = "Dark2") +
+  geom_text(aes(label = N, y = N), size = 3, hjust=1.25) +
+  labs(x = NULL, y = "Count", title = "Data Science Skills",
+     subtitle = "Mined from Dice.com Job Listings") +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5), 
+        plot.subtitle = element_text(hjust = 0.5))
 ```
 
 ## Wordcloud (Count > 5)
