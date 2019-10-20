@@ -152,6 +152,23 @@ and conversely:
 setdiff(trimws(DS10$skills), trimws(Dice10$skills))
 ```
 
+# Previous Analyses Published Online
+## KDNuggets---2018: Description
+In November of 2018, Jeff Hale posted an entry on the KDNuggets blog where he
+described his findings based on a job-listing analysis performed against
+LinkedIn, Indeed, SimplyHired, and AngelList on October 10, 2018.
+
+His findings, shown on the next slide, reinforce that the most requested skills
+are the analytical ones: computer science, analysis, statistics, and machine
+learning as examples. However, there are a number of "softer" skills requested,
+such as communications and visualization.
+
+It should be noted that those would not necessarily be found as questions on
+DataScience Exchange.
+
+## KDNuggets---2018: Findings
+![](JeffHale.png)
+
 ## Data Scientist Non-Technical Skills
 - _Effective communication_ requires a few key components. It starts with effective visualization.
 - A _business awareness_ could now be considered a prerequisite for effective data science.
@@ -167,10 +184,8 @@ setdiff(trimws(DS10$skills), trimws(Dice10$skills))
 # Other Skills
 ## Need to expand
  * https://www.linkedin.com/pulse/behind-big-data-ai-elements-modern-science-michael-li/
- * https://www.kdnuggets.com/2018/11/most-demand-skills-data-scientists.html
- * https://news.microsoft.com/stories/people/james-mickens.html 
- * https://www.kdnuggets.com/2018/05/simplilearn-9-must-have-skills-data-scientist.html
- * https://www.mastersindatascience.org/data-scientist-skills/
+  * https://news.microsoft.com/stories/people/james-mickens.html 
+  * https://www.mastersindatascience.org/data-scientist-skills/
 
 
 
