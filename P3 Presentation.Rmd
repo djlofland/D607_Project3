@@ -78,14 +78,20 @@ wordcloud(DS$TagName,DS$Count, scale = c(4, 0.6), min.freq = 100L,
 
 # Dice.Com
 ## Data Collection
-- A Jupyter Python notebook was used to scrape this data:
-  - Ran search on Dice.com for Data Scientists jobs
+- A Jupyter Python notebook used to scrape data:
+  - Python Libraries we used:
+    - **Selenium** (with Chrome webdriver): automate browsing
+    - **BeautifulSoup**: mine job links from search results
+    - **lxml and xpath**: load individual job listings
+    - **re**: regular expressions to scrape job listing skills
+    
+  1. Ran search on Dice.com for Data Scientist jobs
   
-  - Looped through the Results Page(s) and scrape individual Job Listing URLs
+  2. Loop through the Results Page(s) to scrape individual Job Listing URLs
 
-  - Looped through Individual Job Listing Pages and scrape job skill(s)
-  
-  - Saved the skills to a text file, comma separated skills---one row per job listing
+  3. Loop through Individual Job Listing Pages and scrape job skill(s)
+
+  4. Saved the skills to a text file, comma separated skills---one row per job listing
 
 ## Results
 ```{r Dice, echo=FALSE}
@@ -175,7 +181,7 @@ DataScience Exchange.
 In April of 2018, [Michael Li](https://www.linkedin.com/in/limichael), VP of
 Data at Coinbase, posted a
 [piece on LinkedIn](https://www.linkedin.com/pulse/behind-big-data-ai-elements-modern-science-michael-li/)
-where he listed his main desiderata for new data science hires.
+where he listed his main desidered skills for new data science hires.
 
 - Data wrangling/Munging/Manipulation
 

@@ -3161,7 +3161,7 @@ slide:not(.current) .plotly.html-widget{
 <li>There are 502 unique tags which range in frequency from 1 to 6296. Of these, 395 appear more than 5 times, 95 more than 100 times, and 10 more than 1000 times.</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Top 10 tags</h2></hgroup><article  id="top-10-tags" class="smaller">
+</article></slide><slide class=""><hgroup><h2>Top 10 tags</h2></hgroup><article  class="smaller" id="top-10-tags">
 
 <table class = 'rmdtable'>
 <tr class="header">
@@ -3230,14 +3230,25 @@ slide:not(.current) .plotly.html-widget{
 </article></slide><slide class=""><hgroup><h2>Data Collection</h2></hgroup><article  id="data-collection-1">
 
 <ul>
-<li>A Jupyter Python notebook was used to scrape this data:
+<li>A Jupyter Python notebook used to scrape data:
 
 <ul>
-<li><p>Ran search on Dice.com for Data Scientists jobs</p></li>
-<li><p>Looped through the Results Page(s) and scrape individual Job Listing URLs</p></li>
-<li><p>Looped through Individual Job Listing Pages and scrape job skill(s)</p></li>
-<li><p>Saved the skills to a text file, comma separated skills—one row per job listing</p></li>
+<li>Python Libraries we used:
+
+<ul>
+<li><strong>Selenium</strong> (with Chrome webdriver): automate browsing</li>
+<li><strong>BeautifulSoup</strong>: mine job links from search results</li>
+<li><strong>lxml and xpath</strong>: load individual job listings</li>
+<li><strong>re</strong>: regular expressions to scrape job listing skills</li>
 </ul></li>
+</ul>
+
+<ol>
+<li><p>Ran search on Dice.com for Data Scientist jobs</p></li>
+<li><p>Loop through the Results Page(s) to scrape individual Job Listing URLs</p></li>
+<li><p>Loop through Individual Job Listing Pages and scrape job skill(s)</p></li>
+<li><p>Saved the skills to a text file, comma separated skills—one row per job listing</p></li>
+</ol></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Results</h2></hgroup><article  id="results">
@@ -3246,7 +3257,7 @@ slide:not(.current) .plotly.html-widget{
 
 <p>There are 760 unique tags which range in frequency from 1 to 159. Of these, 59 appear more than 5 times and 1 more than 100 times.</p>
 
-</article></slide><slide class=""><hgroup><h2>Top 10 tags</h2></hgroup><article  id="top-10-tags-1" class="smaller">
+</article></slide><slide class=""><hgroup><h2>Top 10 tags</h2></hgroup><article  class="smaller" id="top-10-tags-1">
 
 <table class = 'rmdtable'>
 <tr class="header">
@@ -3331,7 +3342,7 @@ slide:not(.current) .plotly.html-widget{
 
 </article></slide><slide class=""><hgroup><h2>LinkedIn—2018: Description</h2></hgroup><article  id="linkedin2018-description">
 
-<p>In April of 2018, <a href='https://www.linkedin.com/in/limichael' title=''>Michael Li</a>, VP of Data at Coinbase, posted a <a href='https://www.linkedin.com/pulse/behind-big-data-ai-elements-modern-science-michael-li/' title=''>piece on LinkedIn</a> where he listed his main desiderata for new data science hires.</p>
+<p>In April of 2018, <a href='https://www.linkedin.com/in/limichael' title=''>Michael Li</a>, VP of Data at Coinbase, posted a <a href='https://www.linkedin.com/pulse/behind-big-data-ai-elements-modern-science-michael-li/' title=''>piece on LinkedIn</a> where he listed his main desidered skills for new data science hires.</p>
 
 <ul>
 <li><p>Data wrangling/Munging/Manipulation</p></li>
@@ -3341,13 +3352,13 @@ slide:not(.current) .plotly.html-widget{
 <li><p>Case studies and problem-solving</p></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>LinkedIn—2018: Discussion</h2></hgroup><article  id="linkedin2018-discussion" class="smaller">
+</article></slide><slide class=""><hgroup><h2>LinkedIn—2018: Discussion</h2></hgroup><article  class="smaller" id="linkedin2018-discussion">
 
 <p>What is important about Li’s piece is its focus on the &ldquo;softer&rdquo; skills of the data scientist. Of the five headings, only two would be considered classic &ldquo;hard&rdquo; data science: <strong>Data wrangling</strong> and <strong>Statistical modeling</strong>.</p>
 
 <p>While one could make the case that <strong>Experimental Design</strong> is rigorous as in the work of Fisher, Neyman, and Pearson, it is a skill which does not receive enough mention in many discussions.</p>
 
-<p>Li makes it clear that he views developing good <strong>case studies</strong>, <strong>visualizations</strong>, <strong>after-action summaries</strong>, <strong>communications</strong>, and <strong>pursuasion</strong> skills are key in becoming a good data scientist. He concludes his section of soft-skills with:</p>
+<p>Li makes it clear that he views developing good <strong>case studies</strong>, <strong>visualizations</strong>, <strong>after-action summaries</strong>, <strong>communications</strong>, and <strong>persuasion</strong> skills are key in becoming a good data scientist. He concludes his section of soft-skills with:</p>
 
 <blockquote>
 <p>Ultimately, the goal is to take the insights generated from the analysis and effectively influence critical decision-making, which drives business impact. The &ldquo;hard skills&rdquo; and &ldquo;soft skills&rdquo; need to work together for the success of a data scientist.</p>
