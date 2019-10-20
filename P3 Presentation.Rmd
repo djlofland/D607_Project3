@@ -58,10 +58,10 @@ DS <- fread("./DSSE/DSSETags.csv", key = "TagName")
 
 ```SELECT Id, TagName, Count from Tags ORDER BY Count DESC;```
 
-- There are `r dim(DS)[[1]]` unique tags which range in frequency from
-`r min(DS$Count)` to `r max(DS$Count)`. Of these, `r DS[Count > 5, .N]` appear
-more than 5 times, `r DS[Count > 100, .N]` more than 100 times, and
-`r DS[Count > 1000, .N]` more than 1000 times.
+- There are **`r dim(DS)[[1]]` unique tags** which range in frequency from
+**`r min(DS$Count)` to `r max(DS$Count)`**. Of these, **`r DS[Count > 5, .N]`** appear
+more than 5 times, **`r DS[Count > 100, .N]`** more than 100 times, and
+**`r DS[Count > 1000, .N]`** more than 1000 times.
 
 ## Top 10 tags{.smaller}
 ```{r DST, echo=FALSE}
@@ -115,10 +115,10 @@ This data was significantly less tidy than the DataScience Exchange tabs. After
 basic cleanup including removing ampersand-hex codes, punctuation, and obviously
 non-skill words such as "and" and "or", the following observations can be made.
 
-There are `r nrow(DiceSkills)` unique tags which range in frequency from
-`r DiceSkills[, min(N)]` to `r DiceSkills[, max(N)]`. Of these,
-`r nrow(DiceSkills[N > 5])` appear more than 5 times and
-`r nrow(DiceSkills[N > 100])` more than 100 times.
+There are **`r nrow(DiceSkills)` unique tags** which range in frequency from
+**`r DiceSkills[, min(N)]` to `r DiceSkills[, max(N)]`**. Of these,
+**`r nrow(DiceSkills[N > 5])`** appear more than 5 times and
+**`r nrow(DiceSkills[N > 100])`** more than 100 times.
 
 ## Top 10 tags{.smaller}
 ```{r DiceT, echo=FALSE}
