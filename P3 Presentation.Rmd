@@ -87,11 +87,11 @@ wordcloud(DS$TagName,DS$Count, scale = c(4, 0.6), min.freq = 100L,
     
   1. Ran search on Dice.com for Data Scientists jobs
   
-  2. Looped thru the Results Page(s) and scrape individual Job Listing URLs
+  2. Loop thru the Results Page(s) and scrape individual Job Listing URLs
 
-  3. Looped thru Individual Job Listing Pages and scrape job skill(s)
+  3. Loop thru Individual Job Listing Pages and scrape job skill(s)
   
-  4.Saved the skills to a text file, comma separated skills---one row per job listing
+  4. Saved the skills to a text file, comma separated skills---one row per job listing
 
 ## Results
 ```{r Dice, echo=FALSE}
