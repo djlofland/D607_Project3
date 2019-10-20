@@ -81,6 +81,7 @@ wordcloud(DS$TagName,DS$Count, scale = c(4, 0.6), min.freq = 100L,
  * https://www.linkedin.com/pulse/behind-big-data-ai-elements-modern-science-michael-li/
  * https://www.kdnuggets.com/2018/11/most-demand-skills-data-scientists.html
  * https://news.microsoft.com/stories/people/james-mickens.html 
+ * https://www.kdnuggets.com/2018/05/simplilearn-9-must-have-skills-data-scientist.html
 
 
 
