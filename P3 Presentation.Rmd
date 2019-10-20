@@ -39,7 +39,7 @@ setDTthreads(0L)
   - Experimental Design
   - Data Engineering
   
-- Data Scientists often need Domain Expertise to answer questions
+- Data Scientists need Domain Expertise to answer questions
   
 # DataScience Exchange
 
@@ -85,11 +85,11 @@ wordcloud(DS$TagName,DS$Count, scale = c(4, 0.6), min.freq = 100L,
     - **lxml and xpath**: load individual job listings
     - **re**: regular expressions to scrape job listing skills
     
-  1. Ran search on Dice.com for Data Scientists jobs
+  1. Ran search on Dice.com for Data Scientist jobs
   
-  2. Loop thru the Results Page(s) and scrape individual Job Listing URLs
+  2. Loop through the Results Page(s) to scrape individual Job Listing URLs
 
-  3. Loop thru Individual Job Listing Pages and scrape job skill(s)
+  3. Loop through Individual Job Listing Pages and scrape job skill(s)
   
   4. Saved the skills to a text file, comma separated skills---one row per job listing
 
@@ -160,7 +160,9 @@ setdiff(trimws(DS10$skills), trimws(Dice10$skills))
 
 # Previous Analyses Published Online
 ## KDNuggets---2018: Description
-In November of 2018, Jeff Hale posted an entry on the KDNuggets blog where he
+In November of 2018, Jeff Hale posted an entry on the
+[KDNuggets blog](https://www.kdnuggets.com/2018/11/most-demand-skills-data-scientists.html)
+where he
 described his findings based on a job-listing analysis performed against
 LinkedIn, Indeed, SimplyHired, and AngelList on October 10, 2018.
 
@@ -175,23 +177,37 @@ DataScience Exchange.
 ## KDNuggets---2018: Findings
 ![](JeffHale.png)
 
-## Data Scientist Non-Technical Skills
-- _Effective communication_ requires a few key components. It starts with effective visualization.
-- A _business awareness_ could now be considered a prerequisite for effective data science.
-= _Data-driven problem solving_ allows data to inform the entire data science process. 
+## LinkedIn---2018: Description
+In April of 2018, [Michael Li](https://www.linkedin.com/in/limichael), VP of
+Data at Coinbase, posted a
+[piece on LinkedIn](https://www.linkedin.com/pulse/behind-big-data-ai-elements-modern-science-michael-li/)
+where he listed his main desidered skills for new data science hires.
 
-## Data Science Technical Skills
-- _Data visualization_ "First, it enables the data scientist to see patterns and inform their exploration of the data. Second, it allows them to tell a compelling story using data."
-- _Programming software_ as R, python, Tableau, Hadoop, SQL, Apache Spark are the six important and broadly use tools.
-- _Statistics and Mathematics_
+- Data wrangling/Munging/Manipulation
 
+- Experiment design and A/B testing
 
+- Statistical modeling/Machine learning
 
-# Other Skills
-## Need to expand
- * https://www.linkedin.com/pulse/behind-big-data-ai-elements-modern-science-michael-li/
-  * https://news.microsoft.com/stories/people/james-mickens.html 
-  * https://www.mastersindatascience.org/data-scientist-skills/
+- Soft skills
 
+- Case studies and problem-solving
 
+## LinkedIn---2018: Discussion{.smaller}
+What is important about Li's piece is its focus on the "softer" skills of the
+data scientist. Of the five headings, only two would be considered classic "hard"
+data science: **Data wrangling** and **Statistical modeling**.
 
+While one could make the case that **Experimental Design** is rigorous as in the
+work of Fisher, Neyman, and Pearson, it is a skill which does not receive enough
+mention in many discussions.
+
+Li makes it clear that he views developing good **case studies**,
+**visualizations**, **after-action summaries**, **communications**, and
+**persuasion** skills are key in becoming a good data scientist. He concludes
+his section of soft-skills with:
+
+>Ultimately, the goal is to take the insights generated from the analysis and
+>effectively influence critical decision-making, which drives business impact.
+>The “hard skills” and “soft skills” need to work together for the success of
+>a data scientist.
