@@ -190,7 +190,7 @@ where he listed his main desiderata for new data science hires.
 ## LinkedIn---2018: Discussion{.smaller}
 What is important about Li's piece is its focus on the "softer" skills of the
 data scientist. Of the five headings, only two would be considered classic "hard"
-data science: **Data wrangling** and **Statistical modeling**.
+data science: **Data wrangling** and **Statistical modeling**. 
 
 While one could make the case that **Experimental Design** is rigorous as in the
 work of Fisher, Neyman, and Pearson, it is a skill which does not receive enough
