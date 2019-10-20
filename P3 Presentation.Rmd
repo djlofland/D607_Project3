@@ -75,6 +75,17 @@ wordcloud(DS$TagName,DS$Count, scale = c(4, 0.6), min.freq = 100L,
           random.order = TRUE, rot.per = 0, fixed.asp = FALSE)
 ```
 
+## Data Scientist Non-Technical Skills
+- _Effective communication_ requires a few key components. It starts with effective visualization.
+- A _business awareness_ could now be considered a prerequisite for effective data science.
+= _Data-driven problem solving_ allows data to inform the entire data science process. 
+
+## Data Science Technical Skills
+- _Data visualization_ "First, it enables the data scientist to see patterns and inform their exploration of the data. Second, it allows them to tell a compelling story using data."
+- _Programming software_ as R, python, Tableau, Hadoop, SQL, Apache Spark are the six important and broadly use tools.
+- _Statistics and Mathematics_
+
+
 
 # Other Skills
 ## Need to expand
@@ -82,6 +93,7 @@ wordcloud(DS$TagName,DS$Count, scale = c(4, 0.6), min.freq = 100L,
  * https://www.kdnuggets.com/2018/11/most-demand-skills-data-scientists.html
  * https://news.microsoft.com/stories/people/james-mickens.html 
  * https://www.kdnuggets.com/2018/05/simplilearn-9-must-have-skills-data-scientist.html
+ * https://www.mastersindatascience.org/data-scientist-skills/
 
 
 
