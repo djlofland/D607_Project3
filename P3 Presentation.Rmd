@@ -78,14 +78,20 @@ wordcloud(DS$TagName,DS$Count, scale = c(4, 0.6), min.freq = 100L,
 
 # Dice.Com
 ## Data Collection
-- A Jupyter Python notebook was used to scrape this data:
-  - Ran search on Dice.com for Data Scientists jobs
+- A Jupyter Python notebook used to scrape data:
+  - Python Libraries we used:
+    - **Selenium** (with Chrome webdriver): automate browsing
+    - **BeautifulSoup**: mine job links from search results
+    - **lxml and xpath**: load individual job listings
+    - **re**: regular expressions to scrape job listing skills
+    
+  1. Ran search on Dice.com for Data Scientists jobs
   
-  - Looped thru the Results Page(s) and scrape individual Job Listing URLs
+  2. Looped thru the Results Page(s) and scrape individual Job Listing URLs
 
-  - Looped thru Individual Job Listing Pages and scrape job skill(s)
+  3. Looped thru Individual Job Listing Pages and scrape job skill(s)
   
-  - Saved the skills to a text file, comma separated skills---one row per job listing
+  4.Saved the skills to a text file, comma separated skills---one row per job listing
 
 ## Results
 ```{r Dice, echo=FALSE}
