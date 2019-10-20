@@ -198,7 +198,7 @@ mention in many discussions.
 
 Li makes it clear that he views developing good **case studies**,
 **visualizations**, **after-action summaries**, **communications**, and
-**pursuasion** skills are key in becoming a good data scientist. He concludes
+**persuasion** skills are key in becoming a good data scientist. He concludes
 his section of soft-skills with:
 
 >Ultimately, the goal is to take the insights generated from the analysis and
