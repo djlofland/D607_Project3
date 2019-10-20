@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r loadLibraries, message=FALSE, warning=FALSE, error=FALSE, echo=FALSE}
+library(tidyverse)
 library(tidytext)
 library(ggplot2)
 library(wordcloud)
@@ -63,6 +64,10 @@ DS <- fread("./DSSE/DSSETags.csv", key = "TagName")
 more than 5 times, **`r DS[Count > 100, .N]`** more than 100 times, and
 **`r DS[Count > 1000, .N]`** more than 1000 times.
 
+```{r DSSummary, echo=FALSE}
+summary(DS %>% select(TagName, Count))
+```
+
 ## Top 10 tags{.smaller}
 ```{r DST, echo=FALSE}
 # knitr::kable(head(DS[order(-Count)], n = 10))
@@ -72,7 +77,7 @@ data <- head(DS[order(-Count)], n = 10)
 ggplot(data, aes(reorder(TagName, Count), Count, label=Count, fill = TagName)) +
   geom_col() +
   coord_flip() +
-  scale_color_brewer(type = "seq", palette = "Blues") +
+  scale_fill_manual(values = c("#5c55bd", "#5c55bd", "#5c55bd", "#01a607", "#5c55bd", "#5c55bd", "#01a607", "#01a607", "#5c55bd", "#5c55bd")) +
   geom_text(aes(label = Count, y = Count), size = 3, hjust=1.25) +
   labs(x = NULL, y = "Count", title = "Data Science Skills",
      subtitle = "Mined from DataScience Exchange Tags") +
@@ -81,6 +86,8 @@ ggplot(data, aes(reorder(TagName, Count), Count, label=Count, fill = TagName)) +
         plot.subtitle = element_text(hjust = 0.5))
 
 ```
+
+<span style="background-color:#01a607; color: #222;">Common Skills</span> we will see again in Dice.com analysis. <span style="background-color:#5c55bd; color: #222;">Unique Skills</span> to only DataScience Exchange Tags.
 
 ## Wordcloud (Count > 100)
 ```{r DSWC, echo=FALSE}
@@ -91,21 +98,25 @@ wordcloud(DS$TagName,DS$Count, scale = c(4, 0.6), min.freq = 100L,
 ```
 
 # Dice.Com
-## Data Collection
-- A Jupyter Python notebook used to scrape data:
-  - Python Libraries we used:
-    - **Selenium** (with Chrome webdriver): automate browsing
-    - **BeautifulSoup**: mine job links from search results
-    - **lxml and xpath**: load individual job listings
-    - **re**: regular expressions to scrape job listing skills
-    
-  1. Ran search on Dice.com for Data Scientist jobs
-  
-  2. Loop through the Results Page(s) to scrape individual Job Listing URLs
+## Data Collection{.smaller}
+We used a Jupyter Python notebook to scrape web data:
 
-  3. Loop through Individual Job Listing Pages and scrape job skill(s)
-  
-  4. Saved the skills to a text file, comma separated skills---one row per job listing
+#### Python Libraries:
+
+* **Selenium** (with Chrome webdriver): automate browsing
+* **BeautifulSoup**: mine job links from search results
+* **lxml and xpath**: load individual job listings
+* **re**: regular expressions to scrape job listing skills
+    
+    
+#### Processing Flow:
+
+1. Run a **search** on Dice.com for **Data Scientist** jobs
+2. Loop through **each Results Page**
+   + **scrape** each **Job Listing URL** link
+3. Loop through each **Job Listing URL link** 
+   + **load** the **Job Posting** then **scrape** the **job skill(s)**
+4. **Save all skills** to a text file --- one row per job listing
 
 ## Results
 ```{r Dice, echo=FALSE}
@@ -125,14 +136,18 @@ DiceTokens <- unnest_tokens(D2, skills, words, token = "regex", pattern = ",")
 setDT(DiceTokens)
 DiceSkills <- DiceTokens[, .N, by = skills]
 ```
-This data was significantly less tidy than the DataScience Exchange tabs. After
+This data was **significantly less tidy** than the DataScience Exchange tags. After
 basic cleanup including removing ampersand-hex codes, punctuation, and obviously
 non-skill words such as "and" and "or", the following observations can be made.
 
 There are **`r nrow(DiceSkills)` unique tags** which range in frequency from
 **`r DiceSkills[, min(N)]` to `r DiceSkills[, max(N)]`**. Of these,
-**`r nrow(DiceSkills[N > 5])`** appear more than 5 times and
-**`r nrow(DiceSkills[N > 100])`** more than 100 times.
+**`r nrow(DiceSkills[N > 5])`** appear more than **5 times** and
+**`r nrow(DiceSkills[N > 100])`** more than **100 times**.
+
+```{r DiceSummary, echo=FALSE}
+summary(DiceSkills)
+```
 
 ## Top 10 tags{.smaller}
 ```{r DiceT, echo=FALSE}
@@ -143,7 +158,7 @@ data <- head(DiceSkills[order(-N)], n = 10)
 ggplot(data, aes(reorder(skills, N), N, label=N, fill = skills)) +
   geom_col() +
   coord_flip() +
-  scale_color_brewer(type = "qual", palette = "Dark2") +
+  scale_fill_manual(values = c("#bd7217", "#bd7217", "#bd7217", "#bd7217", "#01a607", "#bd7217", "#01a607", "#01a607", "#bd7217", "#bd7217")) +
   geom_text(aes(label = N, y = N), size = 3, hjust=1.25) +
   labs(x = NULL, y = "Count", title = "Data Science Skills",
      subtitle = "Mined from Dice.com Job Listings") +
@@ -151,6 +166,8 @@ ggplot(data, aes(reorder(skills, N), N, label=N, fill = skills)) +
         plot.title = element_text(hjust = 0.5), 
         plot.subtitle = element_text(hjust = 0.5))
 ```
+
+<span style="background-color:#01a607; color: #222;">Common Skills</span> we saw in DataScience Exchange Tags.  <span style="background-color:#bd7217; color: #222;">Unique Skills</span> to only Dice.com Job Skills.
 
 ## Wordcloud (Count > 5)
 ```{r DiceWC, echo=FALSE}
@@ -168,22 +185,26 @@ DS10[, TagName := gsub("-", " ", TagName)]
 DS10[, Id := NULL]
 setnames(DS10, names(DS10), names(Dice10))
 ```
-The following skills are represented in both the top 10 DataScience exchange
-question tags and the Dice.com job searches:
+
 ```{r intersect, echo=FALSE}
-intersect(trimws(DS10$skills), trimws(Dice10$skills))
+shared <- intersect(trimws(DS10$skills), trimws(Dice10$skills))
+diff1 <- setdiff(trimws(Dice10$skills), trimws(DS10$skills))
+diff2 <- setdiff(trimws(DS10$skills), trimws(Dice10$skills))
 ```
 
-The following are in the top 10 job searches but **not** in the DataScience
-exchange tags:
-```{r Sdiff1, echo=FALSE}
-setdiff(trimws(Dice10$skills), trimws(DS10$skills))
-```
+The following skills are represented in **both** the top 10 DataScience Exchange tags **and** the Dice.com job skills:
 
-and conversely:
-```{r Sdiff2, echo=FALSE}
-setdiff(trimws(DS10$skills), trimws(Dice10$skills))
-```
+- <span style="color:#01a607">`r shared`</span>
+
+The following are **unique** to the **top 10 DataScience exchange tags**:
+
+- <span style="color:#5c55bd">`r diff2`</span>
+
+and conversely these are **unique** to the **top 10 Dice.com job skills**:
+
+- <span style="color:#bd7217">`r diff1`</span>
+
+
 
 # Previous Analyses Published Online
 ## KDNuggets---2018: Description
@@ -208,15 +229,15 @@ DataScience Exchange.
 In April of 2018, [Michael Li](https://www.linkedin.com/in/limichael), VP of
 Data at Coinbase, posted a
 [piece on LinkedIn](https://www.linkedin.com/pulse/behind-big-data-ai-elements-modern-science-michael-li/)
-where he listed his main desidered skills for new data science hires.
+where he listed his main desired skills for new data science hires.
 
-- Data wrangling/Munging/Manipulation
+- Data wrangling / Munging / Manipulation
 
-- Experiment design and A/B testing
+- Experiment Design and A/B testing
 
-- Statistical modeling/Machine learning
+- Statistical Modeling / Machine learning
 
-- Soft skills
+- Soft Skills
 
 - Case studies and problem-solving
 
@@ -231,7 +252,7 @@ mention in many discussions.
 
 Li makes it clear that he views developing good **case studies**,
 **visualizations**, **after-action summaries**, **communications**, and
-**persuasion** skills are key in becoming a good data scientist. He concludes
+**persuasion skills** as key in becoming a good data scientist. He concludes
 his section of soft-skills with:
 
 >Ultimately, the goal is to take the insights generated from the analysis and
