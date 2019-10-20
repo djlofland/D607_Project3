@@ -39,7 +39,7 @@ setDTthreads(0L)
   - Experimental Design
   - Data Engineering
   
-- Data Scientists often need Domain Expertise to answer questions
+- Data Scientists need Domain Expertise to answer questions
   
 # DataScience Exchange
 
@@ -154,7 +154,9 @@ setdiff(trimws(DS10$skills), trimws(Dice10$skills))
 
 # Previous Analyses Published Online
 ## KDNuggets---2018: Description
-In November of 2018, Jeff Hale posted an entry on the KDNuggets blog where he
+In November of 2018, Jeff Hale posted an entry on the
+[KDNuggets blog](https://www.kdnuggets.com/2018/11/most-demand-skills-data-scientists.html)
+where he
 described his findings based on a job-listing analysis performed against
 LinkedIn, Indeed, SimplyHired, and AngelList on October 10, 2018.
 
@@ -169,6 +171,7 @@ DataScience Exchange.
 ## KDNuggets---2018: Findings
 ![](JeffHale.png)
 
+## LinkedIn---2018
 ## Data Scientist Non-Technical Skills
 - _Effective communication_ requires a few key components. It starts with effective visualization.
 - A _business awareness_ could now be considered a prerequisite for effective data science.
