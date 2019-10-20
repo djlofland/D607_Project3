@@ -1,7 +1,7 @@
 ---
 title: "Most Valued Data Science Skills"
 subtitle: "DT 607---Fall 2019---Project 3"
-author: "Danny Lofland, Michael Yampol, Alain Kuiete Tchoupou, Avraham Adler"
+author: "Donny Lofland, Michael Yampol, Alain Kuiete Tchoupou, Avraham Adler"
 date: "10/20/2019"
 output:
   ioslides_presentation:
@@ -27,7 +27,7 @@ setDTthreads(0L)
 
 ## Scope
 
-<img style="float: right;" src="knowledge.png" width="40%">
+<img style="float: right;" src="https://raw.githubusercontent.com/djlofland/DATA607_Project3/master/knowledge.png" width="40%">
 
 - Impossible to answer precisely
 
